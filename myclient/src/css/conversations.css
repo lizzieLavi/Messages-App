@@ -1,0 +1,70 @@
+.Chats{
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c8c4c1;
+    padding:5px;
+    margin:10px;
+    border-radius: 10px; 
+    
+}
+
+.contacts
+{
+    height: 410px;
+}
+
+.contacts_list
+{
+    cursor: pointer;
+    overflow-y: overlay;
+}
+.contacts_list :hover{
+    background-color: #CDC9C7;
+}
+
+.ChatsListItem
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #B0B0B0;
+    padding: 10px;
+  
+}
+
+.ChatsListItem > a
+{
+    text-decoration: none;
+    color: #D7D7DD;
+}
+
+.chatInfo
+{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.new_chat_title
+{
+   display: flex;
+   justify-content: center;
+   padding:5px;
+   font-weight: 550;
+   font-size: 15px;
+}
+
+.user_status
+{
+    font-size: 15px;
+    color:rgba(0,0,0,0.6);
+    padding:5px;
+    padding-left: 0px;
+}
+
+.user_name
+{
+    font-size: 18px;
+
+}

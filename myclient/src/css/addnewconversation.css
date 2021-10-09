@@ -1,0 +1,42 @@
+.contacts{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    margin:10px;
+    border-radius: 10px;
+    
+    
+}
+.contacts :hover{
+    background-color: #9bcaca;
+}
+
+.contactItem
+{
+    flex:1;
+    display: flex; 
+    align-items: center;
+    border-bottom: 1px solid rgb(99, 99, 99);
+    padding: 10px;
+    
+  
+}
+
+
+
+.contactItem > a
+{
+    text-decoration: none;
+    color: #D7D7DD;
+   
+}
+
+.contactInfo
+{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fcfcfc;
+}

@@ -1,0 +1,3 @@
+[submodule "myclient"]
+	path = myclient
+	url = https://github.com/lizzieLavi/messagesApp-client

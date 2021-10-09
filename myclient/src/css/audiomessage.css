@@ -1,0 +1,69 @@
+
+ audio{
+    width: 250px;
+    height: 45px;
+    border-radius: 0px;
+    box-shadow: none;
+   
+}
+
+.message_in audio
+{
+    background-color: #CED2D5;
+}
+
+.message_with_audio .sender
+{
+    align-items: flex-end;
+}
+
+
+.message_out audio
+{
+    background-color: #90B8B8; 
+}
+ .message_in audio::-webkit-media-controls-panel  {
+    -webkit-appearance:none;
+  background-color: #CED2D5;
+
+  border-color: #CED2D5;
+}
+
+.message_out audio::-webkit-media-controls-panel  {
+    background-color: #90B8B8; 
+
+  }
+
+
+  audio::-webkit-media-controls-timeline-container,
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  audio::-webkit-media-controls-fullscreen-button,
+  audio::-webkit-media-controls-rewind-button,
+  audio::-webkit-media-controls-return-to-realtime-button,
+  audio::-webkit-media-controls-toggle-closed-captions-button
+  {
+      display:none;
+  }
+
+
+.audio_and_avatar
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.audio_and_time
+{
+    display: flex;
+    flex-direction: column;
+}
+.message_with_audio
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding:6px;
+
+}

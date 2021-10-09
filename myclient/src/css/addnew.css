@@ -1,0 +1,253 @@
+.add_new
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.add_new_group_border
+{
+    height: 50vh;
+    width: 25vw;
+    background-color: #90B8B8;
+    border: 1px solid black;
+    
+    display: flex;
+
+
+}
+
+.add_new_contact_border
+{
+    height: 22vh;
+    width: 50vw;
+    background-color:#90B8B8;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.add_contact_model
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title_and_close
+{
+   display: flex;
+   align-items: flex-start;
+}
+.close_add_new
+{
+    display: flex;
+    padding: 10px;
+}
+
+.add_contact_title
+{
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    font-size: 17px;
+    font-weight: 400;
+
+    color:#fcfcfc;
+    flex:1;
+}
+
+.start_conversation
+{
+    padding:3px;
+    margin:3px;
+}
+.enter_phone
+{
+    color:#fcfcfc;
+    margin:10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.add_new_contact
+{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_new_button
+{
+    display: inline-block;
+    color: #3e403f;
+  
+    width: 150px;
+    height: 30px;
+  
+    padding: 0px 20px;
+    background: #CED2D5;
+    border-radius: 5px;
+    
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+    
+    margin: 10px;
+    letter-spacing: 0.05em;
+}
+
+.new_group
+{
+    width: 300px;
+}
+
+.button_and_title
+{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add_new_button:hover
+{
+    background: #dfe3e6;
+    color: #323332;
+}
+
+
+.add_new_input
+{
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+
+}
+
+.new_conversation
+{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+
+.group_name
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 15px;
+    align-items: center;
+}
+
+.upload_group_img
+{
+    display:'flex';
+    flex-direction:'column';
+    align-items:'center';
+    position:'absolute';
+    z-index:'1';
+    color:'white';
+}
+
+.top_new_group
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#file
+{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+
+#file:hover{
+    cursor: pointer;
+}
+
+
+.change_group_image
+{
+    z-index:10;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.change_group_image:hover .MuiAvatar-img
+{
+    opacity: 0.5;
+}
+
+
+.change_image_on_hover
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:absolute;
+    z-index:1;
+    color:white;
+    opacity: 0;
+
+}
+
+.change_image_on_hover:hover
+{
+    opacity: 1;
+}
+
+
+
+.show_error
+{
+    color:#fcfcfc;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.contact_item
+{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    border-bottom: 1px solid #3e403f;
+}
+
+input[type="checkbox" i]:checked + label {
+    background: #a3cece;
+
+}
+
+input[type="checkbox"]
+{
+    display: none
+}
+
+label{
+    cursor: pointer;
+}
+
+
+
+
+
